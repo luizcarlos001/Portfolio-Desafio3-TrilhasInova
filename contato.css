@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+.contato-forms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    z-index: 1;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    position: relative;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    background: #ffffff;
+    padding: 50px 80px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+label {
+    margin-bottom: 1em; 
+}
+
+input {
+    padding: 5px;
+}
+
+label p i {
+    margin-right: 10px;
+}
+
+textarea {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+button {
+    padding: 10px 10%;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    background-color: #FFC55A;
+    border: solid #000000 1px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+button:hover {
+    background-color: #ffe0a8;
+    transform: translateY(-5px); 
+    cursor: pointer;
+}
